@@ -1,0 +1,61 @@
+@media screen and (max-width: 600px) {
+    .main_about_me_content {
+        flex-direction: column;
+    }
+
+    .main_about_me .main_about_me_content > div  {
+        text-align: center;
+    }
+
+    /* PROJETOS */
+
+    .main_projects h2 {
+        text-align: start;
+        margin-top: 50px;
+    }
+
+    .main_projects .main_projects_content {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .main_projects .main_projects_content article {
+        margin-bottom: 10px;
+    }
+
+    /* PROJETOS */
+
+    .main_technologies > div {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .main_technologies .main_technologies_content_right {
+        visibility: hidden;
+    }
+
+    /* FORMAÇÂO */
+
+    .main_education .main_education_content {
+        flex-direction: flex;
+    }
+
+    .main_education .main_education_content article {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    /* PROJETOS */
+
+    .main_projects .main_projects_content article {
+        margin-bottom: 10px;
+    }
+
+    /* FORMAÇÂO */
+
+    .main_education .main_education_content article {
+        margin-bottom: 10px;
+    }
+}
