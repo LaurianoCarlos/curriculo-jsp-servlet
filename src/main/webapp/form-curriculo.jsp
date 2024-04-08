@@ -1,4 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -14,7 +15,7 @@
 <div class="container bg-light py-3 my-3">
     <h1 class="py-3 text-center">Cadastro de Currículo</h1>
     <h2 class="mt-5 mb-4">Formulário de Currículo</h2>
-    <form action="/curriculo" class="col-8" method="post">
+    <form action="/exibir-informacoes" class="col-8" method="GET">
         <div class="mb-3">
             <label for="nome" class="form-label">Nome:</label>
             <input type="text" class="form-control" id="nome" name="nome" required>
