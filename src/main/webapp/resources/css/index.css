@@ -32,18 +32,23 @@ body {
     text-align: center;
     padding: 20px 0;
     color: #FFF;
+    margin-top: 20px;
 }
 
-.header_initial_download button {
+.header_initial p {
+    margin: 20px 0;
+}
+
+.header_initial_download a {
     background-color:var(--title);
     padding: 10px;
-    margin: 10px;
+    margin: 20px;
     border: none;
     border-radius: 10px;
     color: #FFF;
 }
 
-.header_initial_download button:hover {
+.header_initial_download a:hover {
     background-color: #FFF;
     color:var(--title);
     cursor: pointer;

@@ -1,4 +1,4 @@
-package br.com.controller;
+package br.com.controller.servlet;
 
 import br.com.controller.model.Curriculo;
 
@@ -14,7 +14,7 @@ import java.util.List;
 @WebServlet("/exibir-informacoes")
 public class CurriculoIndexServlet extends HttpServlet {
     @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String nome = req.getParameter("nome");
         String dataNascimento = req.getParameter("data_nascimento");
         String email = req.getParameter("email");

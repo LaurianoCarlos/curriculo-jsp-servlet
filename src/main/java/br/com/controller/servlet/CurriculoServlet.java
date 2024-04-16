@@ -1,6 +1,4 @@
-package br.com.controller;
-
-import br.com.controller.model.Curriculo;
+package br.com.controller.servlet;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

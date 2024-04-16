@@ -14,7 +14,7 @@
         <h1>Currículo</h1>
         <p id="title"></p>
         <div class="header_initial_download">
-            <button onclick="gerarPDF()"><i class="fa-solid fa-download"></i> Baixar Currículo</button>
+            <a class="button-custom" href="http://localhost:8080/curriculo"></i> Criar Currículo</a>
         </div>
     </div>
 </header>
